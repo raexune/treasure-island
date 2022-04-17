@@ -34,8 +34,6 @@ if i == "right":
 elif i == "left":
   print("You come to a lake. Do you want to wait for   a boat or do you want to swim?")
   i = input()
-else:
-  print("Game over")
 
 
 if i == "swim":
@@ -43,8 +41,6 @@ if i == "swim":
 elif i == "wait":
   print("You arrived unharmed at the Island. Which     door do you choose? red, blue or yellow?")
   i = input()
-else:
-  print("Game over")
 
 if i == "red":
   print("A room full of fire. Game over")
@@ -52,6 +48,5 @@ elif i == "blue":
   print("A room full of beasts. You were eaten. Game   over")
 elif i == "yellow":
   print("Here is the treasure. You win.")
-else:
-  print("Game over")
+
 
